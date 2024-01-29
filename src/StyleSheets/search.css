@@ -1,0 +1,36 @@
+input {
+  padding: 10px 8px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.search_results {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.search_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+.search_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
